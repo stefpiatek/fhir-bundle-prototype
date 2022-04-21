@@ -1,0 +1,22 @@
+{
+  "name": "fhir-transformation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fhir.js": "^0.0.22",
+    "moment": "^2.29.3",
+    "node-csv": "^0.1.2",
+    "node-fetch": "^3.2.3",
+    "node-red": "^2.2.2",
+    "uuid": "^8.3.2"
+  }
+}
